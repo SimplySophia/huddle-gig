@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 header{
-    width: 100%;
+    
     height: auto;
     display: block;
     justify-content: center;
@@ -17,20 +17,19 @@ header{
 }
 .container{
     width: 1440px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
     display: block;
     justify-content: center;
     align-items: center;
     position: relative;
-    border: 2px solid blueviolet;
+    border: none;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-weight: 700;
-    font-family: 'poppins', sans-serif;
-    width: 100%;
+    font-family: 'Poppins', sans-serif;
     margin: 10px;
 }
 .navbar img{
@@ -43,11 +42,10 @@ header{
     top: 20px;
     left: 90%;
     background-color: hsl(207, 100%, 98%);
-    background-size: 2px;
     padding: 0.7rem 1.5rem;
     color: hsl(322, 100%, 66%);
-    border-color: hsl(322, 100%, 66%);
-    border-radius: 20px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 30px;
     font-size: 14px;
     transition: scale 0.2 ease;
 }
@@ -66,26 +64,32 @@ header{
 .content h1{
     margin-top: 20%;
     font-weight: 700;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
+    color: hsl(192, 100%, 9%);
+
 }
 .content p{
-    max-width: 650px;
+    max-width: 760px;
     margin-top: 20px;
-    padding-left: 27%;
+    padding-left: 30%;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+    color:hsl(192, 100%, 9%);
+
 }
 button{
     background-color: hsl(322, 100%, 66%);
     color: #fff;
     border: none;
     border-radius: 25px;
-    width: 25%;
-    height: 40px;
+    width: 28%;
+    height: 45px;
     margin-top: 30px;
-    margin-right: 15px;
+    margin-left: 5%;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
 }
 .communities{
     display: block;
@@ -109,6 +113,7 @@ button{
 }
 .rate{
     color: hsl(192, 100%, 9%);
+
 }
 .rate span{
     font-weight: 700;
@@ -124,38 +129,70 @@ button{
     margin: 5px 75% 2px 2px;
 }
 .about{
+    background: url(/images/bg-section-top-desktop-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
 }
 .text-area{
-    display: flex;
+   background: url(/images/bg-section-top-desktop-2.svg);
+   background-position: inherit;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
 }
 .text{
-    margin-top: 10%;
+    margin-top: 25%;
     margin-left: 50px;
     display: block;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    
+}
+.text h2{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 .text p{
-    width: 450px;
+    width: 465px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.text-image{
+    max-width: 1400px;
 }
 .about2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 1%;
 }
 .text-area2{
     display: flex;
 }
 .text2{
-    margin-top: 10%;
+    margin-top: 20%;
     justify-content: center;
     align-items: center;
+}
+.text2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.text2 p{
+    width: 500px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.text-image2{
+    max-width: 1050px;
 }
 .about3{
     display: flex;
@@ -166,7 +203,137 @@ button{
 .text-area3{
     display: flex;
 }
-.text3 h3{
-    margin-top: 10%;
-
+.text-image3{
+    max-width: 1400px;
 }
+.text3{
+    margin-top: 20%;
+    margin-left: 60px;
+    color: hsl(192, 100%, 9%);
+}
+.text3 h2{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.text3 P{
+    width: 500px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.build{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+.build h2{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+.build button{
+    width: 16%;
+    height: 45px;
+    margin-left: 0;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+}
+.contact-us{
+    background: url(/images/bg-footer-top-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(207, 100%, 98%);
+}
+.info{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20% 0 0 80px;
+}
+.contact img{
+   background-color: hsl(207, 100%, 98%);
+   color: hsl(207, 100%, 98%);
+}
+.contact p{
+    margin-top: 30px;
+    size: 20px;
+}
+.contact1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 65%;
+    font-weight: 400;
+}
+.contact2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 60%;
+    font-weight: 400;
+}
+.newsletter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    margin: 20% 10% 0 0;
+    padding: 10px;
+    
+}
+.newsletter h3{
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.newsletter p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 30px;
+}
+.newsletter button:last-of-type{
+    border-radius: 5px;
+    height: 32px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.icons a{
+    color: #fff;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
