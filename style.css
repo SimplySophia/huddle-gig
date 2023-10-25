@@ -20,17 +20,14 @@ header{
     position: relative;
     
 }
-section{
-    padding: 40px 2px 30px;
-}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    margin: 10px;
-    padding: 4rem;
+    margin: 4rem;
+    
 }
 .navbar .action_btn{
     padding: 0.5rem 1.5rem;
@@ -40,12 +37,7 @@ section{
     transition: scale 0.2 ease;
 }
 .hero{
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 5rem 0 2rem 0;
 }
 .hero h1{
     font-family: 'Poppins' sans-serif;
@@ -76,43 +68,39 @@ button{
 button:hover {
     background-color: hsl(321, 100%, 78%);
 }
-.communities{
-    display: block;
-    justify-content: center;
-    align-items: center;
+
+.mockups{
     text-align: center;
 }
 .followers{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
-.icons1{
+.icon-communities{
     text-align: left;
 }
-.one{
-    display: block;
+.communities{
     width: 180px;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .rate{
+    font-weight: 400;
+    font-family: 'Open Sans'sans-serif;
     color: hsl(192, 100%, 9%);
-    margin: auto;
 }
 .rate span{
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-    font-size:60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
 }
-.two{
-    display: block;
+.messages{
     width: 160px;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
-.icons2{
-    text-align: right;
+.msg-icon{
+    text-align: left;
 }
-.about{
+.grow-together{
     background: url(/images/bg-section-top-desktop-1.svg), url(/images/bg-section-bottom-desktop-1.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,7 +108,6 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
 }
 .text-area{
    display: flex;
@@ -128,10 +115,7 @@ button:hover {
 .text{
     margin-top: 15rem;
     margin-right: 15rem;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    
+     
 }
 .text h1{
     font-size: 30px;
@@ -140,20 +124,16 @@ button:hover {
 }
 .text p{
     font-size: 15px;
-    width: 465px;
+    width: 55ch;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 20px;
+    margin: 1rem auto;
     opacity: 0.6;
 }
-.text-image{
-    max-width: 1400px;
-}
-.about2{
+.flowing-conversation{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
 }
 .text-area2{
     display: flex;
@@ -172,13 +152,13 @@ button:hover {
 }
 .text2 p{
     font-size: 15px;
-    width: 510px;
-    margin-top: 20px;
+    width: 55ch;
+    margin: 1rem auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     opacity: 0.6;
 }
-.about3{
+.your-users{
     background: url(/images/bg-section-top-desktop-2.svg), url(/images/bg-section-bottom-desktop-2.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,18 +183,15 @@ button:hover {
 }
 .text3 P{
     font-size: 15px;
-    width: 500px;
-    margin-top: 20px;
+    width: 55ch;
+    margin: 1rem auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     opacity: 0.6;
 }
 .build{
-    display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin-top: 10%;
+    margin: 1rem auto;
 }
 .build h1{
     font-family: 'poppins', sans-serif;
@@ -248,53 +225,55 @@ button:hover {
     background-size: cover;
 }
 
-
 .info{
     display: block;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    padding: 20px;
+    width: 40ch;
     font-family: 'Open Sans', sans-serif;
-    margin: 5rem 0 0 10rem;
+    margin: 5rem auto
 }
 .contact{
     display: flex;
     font-family: 'Poppins' sans-serif;
     font-weight: 700;
     font-size: 25px;
-    margin-top: 10rem;
-   
+    margin-bottom: 1rem;
 }
 .contact1{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 90px;
-    width: 65%;
+    float: left;
+    width: 60%;
+    margin: 1.5rem auto;
     font-weight: 400;
 }
 .contact2{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    width: 60%;
+    float: left;
+    margin: auto;
+    width: 55%;
     font-weight: 400;
 }
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 7rem;
+}
+.icons a{
+    color: #fff;
+}
+
 .newsletter{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 23%;
-    margin-right: 15%;
-    margin-top: 20%;
-    
+    width: 45ch;
+    margin: 4rem auto;    
 }
 .newsletter h2{
     font-weight: 700;
     font-family: 'poppins', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .newsletter p{
     font-weight: 400;
@@ -303,32 +282,20 @@ button:hover {
 .btn{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+     
 }
 input{
     width: 65%;
     border-radius: 5px;
     height: 35px;
-    margin-top: 30px;
-    padding: auto;
+    margin-top: 2rem;
     border: none;
 }
 .newsletter button:last-of-type{
     border-radius: 5px;
     height: 35px;
     width: 25%;
-    margin-top: 3rem;
-}
-.icons{
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-    font-size: 25px;
-    margin-top: 30px;
-}
-.icons a{
-    color: #fff;
+    margin-top: 2rem;
 }
 .attribution{
     font-size: 11px;
@@ -339,35 +306,14 @@ input{
 }
 @media screen and (max-width: 992px) {
     header{
-        padding: 20px 20px;
-    }
-    .navbar a{
-        width: 5%;
-        margin-left: 0rem;
-    }
-    .hero{
-        flex-direction: column;
         text-align: center;
-        width: 95%;
     }
-    .communities img{
-        margin-top: 30px;
-        width: 95%;
-    }
-    .followers .two{
-        margin-top: 50px;
+    .hero img{
+        width: 90%;
     }
 
-    .about{
-        padding-left: 30px;
-        padding-right: 30px;
+    .grow-together{
         text-align: center;
-    }
-    .about2{
-        flex-direction: column;
-        padding-right: 10px;
-        padding-left: 10rem;
-        margin-left: 0;
     }
     .text-area, 
     .text-area2,
@@ -375,64 +321,38 @@ input{
         flex-direction: column;
     }
     .text{
-        margin: auto 4rem;
-        padding: 10px;
-        width: 100%;
+        width: 60ch;
+        margin: 0;
     }
     .text h1{
-        margin: 2rem 100px 0 5px ;
+        margin-top: 2rem;
+    }
+    .flowing-conversation{
+        text-align: center;
     }
     .text2{
-        margin: auto 5rem;
-        width: 100%;
-        padding: 10px;
+        margin: 0;
+        width: 60ch;
     }
     .text2 h1{
-        margin-right: 30%;
+        margin-top: 2rem;
     }
-    .text2{
+    .your-users{
         text-align: center;
-        margin-right: 140px;
-    }
-    .about3{
-        padding-left: 15rem;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 20px;
     }
     .text3{
-        margin: auto 5rem;
-        padding: 10px;
-        width: 100%;
+        margin: 0;
+        width: 60ch;
     }
     .text3 h1{
-        margin-left: 20%;
-    }
-    .text3 p{
-        text-align: center;
-        margin-right: 180px;
+        margin-top: 2rem;
     }
     .build{
         width: 95%;
     }
     footer{
         flex-direction: column;
-        margin-top: 40%;
-    }
-    .contact{
-        width: 100%;
-    }
-    .contact1{
-        width: 77%;
-        margin-left: 0;
-        margin-top: 80%;
-    }
-    .contact2{
-        width: 70%;
-        margin-left: 0;
-    }
-    .newsletter{
-        margin-bottom: 10%;
+        flex-wrap: wrap;
     }
 
     
