@@ -352,7 +352,9 @@ input{
     }
     footer{
         flex-direction: column;
-        flex-wrap: wrap;
+    }
+    .contact p{
+        text-align: left;
     }
 
     
